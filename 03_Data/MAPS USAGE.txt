@@ -1,0 +1,14 @@
+# USAGE OF THE RECOMMENDER
+FROM THE COMMAND LINE GO TO:
+C:\Users\ema\Desktop\UTN SE Courses\21_Berkeley_CS61A_SICP\03_Data\maps
+
+AND RUNA ANY OF THE FOLLOWING
+
+# SELECT USER
+python3 recommend.py -u one_cluster
+
+# USER LIKES SOUTH SIDE RESTAURANTS
+python recommend.py -u likes_southside -k 5 -p
+
+# SANDWICH RESTAURANTS, USER LIKES EXPENSIVE RESTAURANTS
+python recommend.py -u likes_expensive -k 2 -p -q Sandwiches

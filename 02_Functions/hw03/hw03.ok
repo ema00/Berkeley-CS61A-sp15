@@ -1,0 +1,27 @@
+{
+    "name": "Homework 3",
+    "endpoint": "",
+    "src": [
+        "hw03.py"
+    ],
+    "tests": {
+        "hw03.py":  "doctest"
+    },
+    "default_tests": [
+        "g",
+        "g_iter",
+        "pingpong",
+        "count_change",
+        "move_stack",
+        "flatten",
+        "merge",
+        "mergesort"
+    ],
+    "protocols": [
+        "restore",
+        "file_contents",
+        "grading",
+        "analytics",
+        "backup"
+    ]
+}
